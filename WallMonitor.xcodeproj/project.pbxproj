@@ -16,6 +16,11 @@
 		054B98451673A6670091A4E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 054B98441673A6670091A4E4 /* Default.png */; };
 		054B98471673A6670091A4E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 054B98461673A6670091A4E4 /* Default@2x.png */; };
 		054B98491673A6670091A4E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 054B98481673A6670091A4E4 /* Default-568h@2x.png */; };
+		054B98511673A7640091A4E4 /* WMBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 054B98501673A7640091A4E4 /* WMBackgroundView.m */; };
+		054B98571673A7BA0091A4E4 /* WMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054B98551673A7BA0091A4E4 /* WMMainViewController.m */; };
+		054B98581673A7BA0091A4E4 /* WMMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B98561673A7BA0091A4E4 /* WMMainViewController.xib */; };
+		054E365B1673AB9B00D177BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054E365A1673AB9B00D177BF /* QuartzCore.framework */; };
+		054E365F1673AF4A00D177BF /* WMBoxBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 054E365E1673AF4A00D177BF /* WMBoxBackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,14 @@
 		054B98441673A6670091A4E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		054B98461673A6670091A4E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		054B98481673A6670091A4E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		054B984F1673A7640091A4E4 /* WMBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBackgroundView.h; sourceTree = "<group>"; };
+		054B98501673A7640091A4E4 /* WMBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBackgroundView.m; sourceTree = "<group>"; };
+		054B98541673A7BA0091A4E4 /* WMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMainViewController.h; sourceTree = "<group>"; };
+		054B98551673A7BA0091A4E4 /* WMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMainViewController.m; sourceTree = "<group>"; };
+		054B98561673A7BA0091A4E4 /* WMMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMMainViewController.xib; sourceTree = "<group>"; };
+		054E365A1673AB9B00D177BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		054E365D1673AF4A00D177BF /* WMBoxBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBoxBackgroundView.h; sourceTree = "<group>"; };
+		054E365E1673AF4A00D177BF /* WMBoxBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBoxBackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054E365B1673AB9B00D177BF /* QuartzCore.framework in Frameworks */,
 				054B98331673A6670091A4E4 /* UIKit.framework in Frameworks */,
 				054B98351673A6670091A4E4 /* Foundation.framework in Frameworks */,
 				054B98371673A6670091A4E4 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +82,7 @@
 		054B98311673A6670091A4E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				054E365A1673AB9B00D177BF /* QuartzCore.framework */,
 				054B98321673A6670091A4E4 /* UIKit.framework */,
 				054B98341673A6670091A4E4 /* Foundation.framework */,
 				054B98361673A6670091A4E4 /* CoreGraphics.framework */,
@@ -80,6 +95,13 @@
 			children = (
 				054B98411673A6670091A4E4 /* WMAppDelegate.h */,
 				054B98421673A6670091A4E4 /* WMAppDelegate.m */,
+				054B98541673A7BA0091A4E4 /* WMMainViewController.h */,
+				054B98551673A7BA0091A4E4 /* WMMainViewController.m */,
+				054B98561673A7BA0091A4E4 /* WMMainViewController.xib */,
+				054B984F1673A7640091A4E4 /* WMBackgroundView.h */,
+				054B98501673A7640091A4E4 /* WMBackgroundView.m */,
+				054E365D1673AF4A00D177BF /* WMBoxBackgroundView.h */,
+				054E365E1673AF4A00D177BF /* WMBoxBackgroundView.m */,
 				054B98391673A6670091A4E4 /* Supporting Files */,
 			);
 			path = WallMonitor;
@@ -155,6 +177,7 @@
 				054B98451673A6670091A4E4 /* Default.png in Resources */,
 				054B98471673A6670091A4E4 /* Default@2x.png in Resources */,
 				054B98491673A6670091A4E4 /* Default-568h@2x.png in Resources */,
+				054B98581673A7BA0091A4E4 /* WMMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +190,9 @@
 			files = (
 				054B983F1673A6670091A4E4 /* main.m in Sources */,
 				054B98431673A6670091A4E4 /* WMAppDelegate.m in Sources */,
+				054B98511673A7640091A4E4 /* WMBackgroundView.m in Sources */,
+				054B98571673A7BA0091A4E4 /* WMMainViewController.m in Sources */,
+				054E365F1673AF4A00D177BF /* WMBoxBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +302,7 @@
 				054B984E1673A6670091A4E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
